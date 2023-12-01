@@ -8,7 +8,7 @@ type ActionButtonProps = {
 }
 
 export default function ActionButton({ text, icon, classProps }: ActionButtonProps) {
-    let imageSrc = '/images/icon-chevron-right-double.svg'; // Endereço padrão da imagem
+    let imageSrc = '/images/icon-chevron-right-double.svg';
     if (icon) {
         imageSrc = icon;
     }

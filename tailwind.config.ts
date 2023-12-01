@@ -18,6 +18,8 @@ const config: Config = {
         "primary-black": "#080A0D",
         "primary-green": "#14634B",
         "neutral-stroke": "#3F4D6A",
+        "card-gray": "#161B23",
+        "card-gray-icon": "#2D3749",
       },
       backgroundImage: {
         "block-funds-background": "url('/images/block-funds-background.svg')",

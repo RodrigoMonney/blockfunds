@@ -3,7 +3,7 @@ import ActionButton from "@/components/ActionButton";
 
 export default function MainSection() {
     return (
-        <div className="bg-block-funds-background bg-no-repeat bg-cover bg-primary-black h-[776px]">
+        <div className="bg-block-funds-background bg-no-repeat bg-cover h-[776px]">
             <div className="px-4 py-6 h-[390px]">
                 <h1 className="text-[28px] leading-block-funds-line-height-sub text-block-funds-white text-center">Explore a Vanguarda das Finanças</h1>
                 <p className="mt-4 text-center text-sm leading-4 text-block-funds-white-sub">Descubra estratégias avançadas de investimento, um crescimento financeiro acelerado em um ambiente descentralizado e transparente.</p>
