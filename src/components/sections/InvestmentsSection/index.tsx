@@ -13,12 +13,12 @@ export default function InvestmentSection() {
                 <div className="flex flex-col gap-10">
                     <CardInvestment
                         title="Diversificação Inteligente"
-                        description="Escolha investimentos estratégicos para maximizar seus lucros e minimizar os riscos"
+                        description="Escolha investimentos estratégicos para maximizar seus lucros e minimizar os riscos."
                         iconSrc="/images/icon-balance-justice.svg"
                     />
                     <CardInvestment
                         title="Investimentos em Criptomoedas"
-                        description="Descubra as oportunidades de alto rendimento nas criptomoedas e amplie seus retornos"
+                        description="Descubra as oportunidades de alto rendimento nas criptomoedas e amplie seus retornos."
                         iconSrc="/images/icon-bitcoin.svg"
                     />
                     <CardInvestment
@@ -28,12 +28,12 @@ export default function InvestmentSection() {
                     />
                     <CardInvestment
                         title="Fundos de Investimento"
-                        description="Conte com a diversificação dos fundos de investimento para atingir seus objetivos financeiros"
+                        description="Conte com a diversificação dos fundos de investimento para atingir seus objetivos financeiros."
                         iconSrc="/images/icon-investment-fund.svg"
                     />
                     <CardInvestment
                         title="Oportunidades em Web3"
-                        description="Explore as vantagens das finanças descentralizadas e aproveite todo o potencial da tecnologia Web3"
+                        description="Explore as vantagens das finanças descentralizadas e aproveite todo o potencial da tecnologia Web3."
                         iconSrc="/images/icon-web3-opportunity.svg"
                     />
                     <CardInvestment

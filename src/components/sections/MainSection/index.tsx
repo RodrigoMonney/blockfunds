@@ -5,7 +5,7 @@ export default function MainSection() {
     return (
         <div className="bg-block-funds-background bg-no-repeat bg-cover h-[776px] relative">
             <div className="px-4 py-6 h-[390px]">
-                <h1 className="text-[28px] leading-block-funds-line-height-sub text-block-funds-white text-center">Explore a Vanguarda das Finanças</h1>
+                <h1 className="text-[28px] leading-block-funds-line-height-sub text-block-funds-white text-center font-bold">Explore a Vanguarda das Finanças</h1>
                 <p className="mt-4 text-center text-sm leading-4 text-block-funds-white-sub">Descubra estratégias avançadas de investimento, um crescimento financeiro acelerado em um ambiente descentralizado e transparente.</p>
 
                 <div className="flex justify-center mt-[28px]">
@@ -42,7 +42,7 @@ export default function MainSection() {
             </div>
 
             <div className="flex justify-center">
-                <Image src="/images/block-funds-ceo.svg" width={239} height={348} quality={100} alt="Block Funds CEO." />
+                <Image src="/images/block-funds-ceo.png" width={239} height={348} quality={100} alt="Block Funds CEO." />
             </div>
 
             <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-primary-black to-transparent" />

@@ -22,7 +22,7 @@ const config: Config = {
         "card-gray-icon": "#2D3749",
       },
       backgroundImage: {
-        "block-funds-background": "url('/images/block-funds-background.svg')",
+        "block-funds-background": "url('/images/block-funds-background.png')",
       },
       lineHeight: {
         "block-funds-line-height-sub": "33px",
