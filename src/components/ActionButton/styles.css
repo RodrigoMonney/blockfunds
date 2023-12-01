@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .button-primary {
-    @apply bg-emerald-800 flex px-[40px] py-[20px] mt-[28px] rounded-[12px] text-block-funds-white items-center justify-between text-[16px] w-[255px] h-[58px]
+    @apply bg-emerald-800 flex px-[40px] py-[20px] rounded-[12px] text-block-funds-white items-center justify-between text-[16px] w-[255px] h-[58px]
 }

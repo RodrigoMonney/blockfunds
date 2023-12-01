@@ -1,14 +1,14 @@
 import Image from 'next/image';
 
-interface CardProps {
+type CardProps = {
     title: string;
     description: string;
     iconSrc: string;
 }
 
-const Card: React.FC<CardProps> = ({ title, description, iconSrc }) => {
+export default function CardInvestment({ title, description, iconSrc }: CardProps) {
     return (
-        <div className="bg-card-gray rounded-2xl pt-[76px] pb-16 px-6 flex items-center text-white relative mb-10">
+        <div className="bg-card-gray rounded-2xl pt-[76px] pb-16 px-6 flex items-center text-white relative">
             <div className="bg-card-gray-icon rounded-full p-2 w-16 h-16 items-center justify-between gap-2 absolute left-6 top-[-8px]">
                 {/* Utilizando o componente Image do Next.js para otimização */}
                 <Image
@@ -25,6 +25,4 @@ const Card: React.FC<CardProps> = ({ title, description, iconSrc }) => {
             </div>
         </div>
     );
-};
-
-export default Card;
+}
