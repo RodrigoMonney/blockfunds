@@ -9,7 +9,7 @@ export default function MainSection() {
                 <p className="mt-4 text-center text-sm leading-4 text-block-funds-white-sub">Descubra estratégias avançadas de investimento, um crescimento financeiro acelerado em um ambiente descentralizado e transparente.</p>
 
                 <div className="flex justify-center">
-                    <ActionButton classProps="button-primary" text="Abra sua conta agora" />
+                    <ActionButton classProps="button-primary w-[200px]" text="Abra sua conta agora" />
                 </div>
 
                 <div className="text-white py-5 flex items-center justify-between mt-9">

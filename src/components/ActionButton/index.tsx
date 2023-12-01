@@ -15,7 +15,7 @@ export default function ActionButton({ text, icon, classProps }: ActionButtonPro
 
     return (
         <button className={classProps}>
-            <div className="flex flex-row justify-center items-center">
+            <div className="flex flex-row justify-center items-center w-96">
                 <div className="mr-1">
                     {text}
                 </div>

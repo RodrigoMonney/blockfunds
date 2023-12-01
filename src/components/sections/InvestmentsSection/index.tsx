@@ -1,3 +1,5 @@
+import Card from "@/components/CardInvestment"
+
 export default function InvestmentSection() {
     return (
         <div className="pt-11 px-4">
@@ -8,16 +10,36 @@ export default function InvestmentSection() {
                 </p>
 
                 <div>
-                    <div className="bg-card-gray rounded-2xl pt-[76px] pb-16 px-6 flex items-center text-white relative mb-10">
-                        <div className="bg-card-gray-icon rounded-full p-2 w-16 h-16 items-center justify-between gap-2 absolute left-6 top-[-8px]">
-                            <img className="w-11 h-11 grid place-items-center mx-auto flex-shrink-0 relative" src="/images/icon-balance-justice.svg" alt="" />
-                        </div>
-                        <div className="flex flex-col text-left">
-                            <h3 className="font-semibold text-base">Diversificação Inteligente</h3>
-                            <p className="text-sm pt-4 font-medium text-block-funds-white-sub">Escolha investimentos estratégicos para maximizar seus lucros e minimizar os riscos</p>
-                        </div>
-                    </div>
-
+                    <Card
+                        title="Diversificação Inteligente"
+                        description="Escolha investimentos estratégicos para maximizar seus lucros e minimizar os riscos"
+                        iconSrc="/images/icon-balance-justice.svg"
+                    />
+                    <Card
+                        title="Investimentos em Criptomoedas"
+                        description="Descubra as oportunidades de alto rendimento nas criptomoedas e amplie seus retornos"
+                        iconSrc="/images/icon-bitcoin.svg"
+                    />
+                    <Card
+                        title="Renda Fixa"
+                        description="Investimentos de renda fixa com retornos estáveis e previsíveis, proporcionando segurança e tranquilidade."
+                        iconSrc="/images/icon-fixed-income.svg"
+                    />
+                    <Card
+                        title="Fundos de Investimento"
+                        description="Conte com a diversificação dos fundos de investimento para atingir seus objetivos financeiros"
+                        iconSrc="/images/icon-investment-fund.svg"
+                    />
+                    <Card
+                        title="Oportunidades em Web3"
+                        description="Explore as vantagens das finanças descentralizadas e aproveite todo o potencial da tecnologia Web3"
+                        iconSrc="/images/icon-web3-opportunity.svg"
+                    />
+                    <Card
+                        title="Recompensas por Staking"
+                        description="Lucre mais ao fazer staking de criptomoedas e fortalecer as redes digitais."
+                        iconSrc="/images/icon-staking-reward.svg"
+                    />
                 </div>
             </div>
         </div >
