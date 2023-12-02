@@ -13,10 +13,10 @@ export default function CardInvestment({ title, description, iconSrc }: CardProp
                 {/* Utilizando o componente Image do Next.js para otimização */}
                 <Image
                     src={iconSrc}
-                    alt=""
+                    alt="Block Funds icon."
                     width={44} // O tamanho real em pixels do ícone
                     height={44} // O tamanho real em pixels do ícone
-                    className="grid place-items-center mx-auto flex-shrink-0 relative"
+                    className="grid place-items-center mx-auto flex-shrink-0 relative pt-[2px]"
                 />
             </div>
             <div className="flex flex-col text-left">

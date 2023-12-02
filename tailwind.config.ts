@@ -20,6 +20,8 @@ const config: Config = {
         "neutral-stroke": "#3F4D6A",
         "card-gray": "#161B23",
         "card-gray-icon": "#2D3749",
+        midnight: "#0d121a",
+        "neutre-stroke": "#3F4D6A",
       },
       backgroundImage: {
         "block-funds-background": "url('/images/block-funds-background.png')",
