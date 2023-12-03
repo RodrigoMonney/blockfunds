@@ -20,14 +20,15 @@ export default function InvestmentOpportunities() {
     );
 
     return (
-        <div className="bg-deep-space text-block-funds-white flex flex-col justify-top pt-[68px] px-[16px] text-center bg-block-funds-cfo-background bg-no-repeat bg-contain bg-bottom">
+        <div className="bg-deep-space text-block-funds-white flex flex-col justify-top py-16 px-4 text-center bg-block-funds-cfo-background bg-no-repeat bg-contain bg-bottom">
             <div>
                 <Title />
                 <Description />
                 <DetailedInfo />
-                <div className="flex justify-center pt-9 mb-[393px]">
+                <div className="flex justify-center pt-9 mb-[46px]">
                     <ActionButton classProps="flex justify-center items-center gap-1 py-5 px-10 border-2 border-neutre-stroke rounded-xl border-spacing-3 text-secondary-on text-base font-medium" iconProps="text-secondary-on" text="Abra sua conta agora" icon="/images/chevron-right-double-secondary.svg" />
                 </div>
+                <div className="min-h-[347px]" />
             </div>
         </div>
     );
