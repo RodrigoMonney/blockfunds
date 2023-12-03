@@ -1,8 +1,7 @@
 import ActionButton from "@/components/ActionButton";
 import InvestmentFeaturesCard from "@/components/InvestmentFeaturesCard";
-import InvestmentTrustCard from "@/components/InvestmentTrustCard";
 
-export default function InvestmentPlatformFeatures() {
+export default function InvestmentFeaturesSection() {
     return (
         <div className="bg-primary-black text-block-funds-white flex flex-col justify-center py-[68px] px-[16px] text-center">
             <h1 className="text-xl font-medium leading-[22px]"><span className="font-bold">T  ransparência e Segurança</span> para seus investimentos</h1>
