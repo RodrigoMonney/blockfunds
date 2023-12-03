@@ -1,6 +1,6 @@
 import ActionButton from "@/components/ActionButton";
 
-export default function InvestmentOpportunities() {
+export default function InvestmentOpportunitiesSection() {
     const Title = () => (
         <h1 className="text-xl font-medium leading-[22px] pb-5 font-hubot-sans">
             Oportunidades únicas para <span className="font-bold">clientes exclusivos</span>

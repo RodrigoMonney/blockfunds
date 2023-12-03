@@ -3,6 +3,7 @@ import InvestmentSection from '@/components/sections/InvestmentsSection'
 import InvestmentTrustSection from '@/components/sections/InvestmentTrustSection'
 import InvestmentFeaturesSection from '@/components/sections/InvestmentFeaturesSection'
 import InvestmentOpportunitiesSection from '@/components/sections/InvestmentOpportunitiesSection'
+import MarketsSection from '@/components/sections/MarketsSection'
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <InvestmentTrustSection />
       <InvestmentFeaturesSection />
       <InvestmentOpportunitiesSection />
+      <MarketsSection />
     </div>
   )
 }

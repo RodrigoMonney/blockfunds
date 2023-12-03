@@ -4,7 +4,7 @@ import InvestmentFeaturesCard from "@/components/InvestmentFeaturesCard";
 export default function InvestmentFeaturesSection() {
     return (
         <div className="bg-primary-black text-block-funds-white flex flex-col justify-center py-[68px] px-[16px] text-center">
-            <h1 className="text-xl font-medium leading-[22px]"><span className="font-bold">T  ransparência e Segurança</span> para seus investimentos</h1>
+            <h1 className="text-xl font-medium leading-[22px]"><span className="font-bold">Transparência e Segurança</span> para seus investimentos</h1>
             <div className="flex flex-col gap-[52px]">
                 <InvestmentFeaturesCard title="Ativos ilimitados e inovadores" description="Uma nova dimensão de investimentos com uma ampla gama de ativos financeiros que impulsionam o crescimento." />
                 <InvestmentFeaturesCard title="Crescimento exponencial" description="Aproveite o potencial de crescimento de investimentos estratégicos em setores emergentes e disruptivos." />
