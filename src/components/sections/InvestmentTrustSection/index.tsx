@@ -2,7 +2,7 @@ import InvestmentTrustCard from "@/components/InvestmentTrustCard";
 
 export default function InvestmentTrustSection() {
     return (
-        <div className="bg-midnight text-block-funds-white flex flex-col justify-center items-start py-[68px] px-[16px] text-center">
+        <div className="bg-midnight text-block-funds-white flex flex-col justify-center items-center py-[68px] px-[16px] text-center">
             <h1 className="text-xl font-medium leading-[22px]"><span className="font-bold">Transparência e Segurança</span> para seus investimentos</h1>
 
             <div className="flex flex-col gap-[52px]">

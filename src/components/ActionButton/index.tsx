@@ -5,13 +5,12 @@ type ActionButtonProps = {
     text?: string;
     icon?: string;
     classProps?: string
+    iconProps?: string
 }
 
-export default function ActionButton({ text, icon, classProps }: ActionButtonProps) {
-    let imageSrc = '/images/icon-chevron-right-double.svg';
-    if (icon) {
-        imageSrc = icon;
-    }
+export default function ActionButton({ text, icon, classProps, iconProps }: ActionButtonProps) {
+    const iconStyle = iconProps ? iconProps : '';
+    const imageSrc = icon ? icon : '/images/icon-chevron-right-double.svg';
 
     return (
         <button className={classProps}>
@@ -20,7 +19,7 @@ export default function ActionButton({ text, icon, classProps }: ActionButtonPro
                     {text}
                 </div>
                 <div className="mt-[2px]">
-                    <img src="/images/icon-chevron-right-double.svg" alt="" />
+                    <img className="text-secondary-on" src={imageSrc} alt="" />
                 </div>
             </div>
         </button >
