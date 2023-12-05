@@ -15,3 +15,28 @@
     font-weight: 700;
     font-style: normal;
 }
+
+/* Estilizando a barra de rolagem para todos os elementos e pseudo-elementos */
+::-webkit-scrollbar {
+    /* Largura da barra de rolagem */
+    width: 6px;
+}
+
+/* Estilizando a trilha da barra de rolagem (parte onde a barra se move) */
+::-webkit-scrollbar-track {
+    /* Cor de fundo da trilha */
+    background: #080A0D;
+}
+
+/* Estilizando o manipulador da barra de rolagem (a parte que você segura para rolar) */
+::-webkit-scrollbar-thumb {
+    /* Cor do manipulador da barra de rolagem */
+    background: #3F4D6A;
+    border-radius: 6px;
+}
+
+/* Estilizando o manipulador da barra de rolagem ao passar o mouse sobre ele */
+::-webkit-scrollbar-thumb:hover {
+    /* Cor do manipulador ao passar o mouse */
+    background: #3F4D6A;
+}

@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div className="flex flex-col justify-center items-center gap-[52px] px-4 py-16">
 
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex-col justify-center items-center">
 
                 <div className="flex flex-col items-start gap-6">
                     <div className="flex items-center justify-center gap-[2px] text-white">
@@ -133,16 +133,13 @@ export default function Footer() {
 
             <div className="w-full h-[0px] border border-slate-600"></div>
 
-            <div className="justify-between items-center inline-flex gap-5">
+            <div className="flex items-center justify-between gap-8 md:w-full">
                 <div className="text-zinc-500 text-sm font-medium font-hubot-sans">
                     <p>BlockFunds© 2023</p>
                     <p>Todos os direitos reservados</p>
                 </div>
-                <div className="flex justify-start items-center">
-                    <div className="text-zinc-500 text-base font-medium font-hubot-sans"></div>
-                    <div className="min-w-[133px]">
-                        <ActionButton classProps="text-zinc-500 text-base font-medium font-hubot-sans py-2" icon="/images/icon-arrow-up-thin.svg" iconProps="text-zinc-500 w-6 h-6" text="Ir para o topo" />
-                    </div>
+                <div className="min-w-[133px]">
+                    <ActionButton classProps="text-zinc-500 text-base font-medium font-hubot-sans py-2" icon="/images/icon-arrow-up-thin.svg" iconProps="text-zinc-500 w-6 h-6" text="Ir para o topo" />
                 </div>
             </div>
 

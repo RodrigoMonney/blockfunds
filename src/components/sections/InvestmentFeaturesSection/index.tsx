@@ -13,10 +13,12 @@ export default function InvestmentFeaturesSection() {
 
             <div className="flex flex-col items-center justify-center mt-16">
                 <div className="relative">
-                    <img className="mx-auto w-full max-w-[300px] h-auto" src="/images/bg-dashboard.svg" />
-                    <img className="absolute right-[5px] top-[-19px]" src="/images/bg-bitcoin.svg" />
-                    <img className="absolute left-[7.5px] bottom-[-8px]" src="/images/bg-ethereum.svg" />
-                    <div className="absolute bg-primary-black w-6 h-2 bottom-[-2px] left-[64px]" />
+                    <img className="mx-auto w-full max-w-[300px] md:min-w-[460px] h-auto" src="/images/bg-dashboard.svg" />
+                    <img className="absolute right-[5px] md:right-[12px] md:top-[-25px] top-[-19px] md:w-[68px] z-10" src="/images/bg-bitcoin.svg" />
+                    <img className="absolute left-[7.5px] bottom-[-8px] md:w-[68px] md:left-[11px] md:bottom-[-13px] z-10" src="/images/bg-ethereum.svg" />
+                    <div className="absolute bg-primary-black w-6 h-2 bottom-[-2px] left-[64px] md:bottom-[-3px] md:left-[100px]" />
+
+
                 </div>
             </div>
 

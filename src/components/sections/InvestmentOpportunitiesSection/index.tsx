@@ -26,9 +26,9 @@ export default function InvestmentOpportunitiesSection() {
                 <Description />
                 <DetailedInfo />
                 <div className="flex justify-center pt-9 mb-[46px]">
-                    <ActionButton classProps="flex justify-center items-center gap-1 py-5 px-10 border-2 border-neutre-stroke rounded-xl border-spacing-3 text-secondary-on text-base font-medium" iconProps="text-secondary-on" text="Abra sua conta agora" icon="/images/chevron-right-double-secondary.svg" />
+                    <ActionButton classProps="flex justify-center items-center gap-1 py-5 px-10 border-2 border-neutral-stroke rounded-xl border-spacing-3 text-secondary-on text-base font-medium" iconProps="text-secondary-on" text="Abra sua conta agora" icon="/images/chevron-right-double-secondary.svg" />
                 </div>
-                <div className="min-h-[347px]" />
+                <div className="min-h-[347px] md:min-h-[655px]" />
             </div>
         </div>
     );

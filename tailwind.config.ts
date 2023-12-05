@@ -21,12 +21,12 @@ const config: Config = {
         "card-gray": "#161B23",
         "card-gray-icon": "#2D3749",
         midnight: "#0d121a",
-        "neutre-stroke": "#3F4D6A",
         "deep-space": "#101219",
         "secondary-on": "#ED7913",
       },
       backgroundImage: {
         "block-funds-background": "url('/images/block-funds-background.png')",
+        "lg-block-funds-background": "url('/images/block-funds-full.svg')",
         "block-funds-cfo-background": "url('/images/block-funds-cfo.svg')",
       },
       lineHeight: {
